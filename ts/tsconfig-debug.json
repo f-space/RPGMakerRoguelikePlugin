@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "system",
+		"baseUrl": "src",
+		"outDir": "../js/plugins",
+		"inlineSourceMap": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"removeComments": true,
+		"experimentalDecorators": true
+	},
+	"include": [
+		"src/**/*",
+		"decl/**/*"
+	]
+}
